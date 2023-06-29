@@ -14,3 +14,5 @@ license: cc
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
 for reference to setup config main.yml -> https://huggingface.co/docs/hub/spaces-github-actions
+
+if you hit authError 128 use-> https://github.com/huggingface/huggingface_hub/issues/534

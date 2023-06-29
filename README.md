@@ -21,7 +21,11 @@ self-note->
 When comparing Git pull vs fetch, Git fetch is a safer alternative because it pulls in all the commits from your remote but doesn't make any changes to your local files. On the other hand, Git pull is faster as you're performing multiple actions in one – a better bang for your buck.
 
 `git fetch` 
+
 `git push -f origin main` 
+
 `git remote rm origin`# for removing remote repo
+
 `git remote add origin [repo link]` # for adding new repo as remote
+
 `git remote -v` # to check your remote repo URL path 

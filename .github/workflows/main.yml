@@ -21,4 +21,4 @@ jobs:
       - name: Push to hub
         env:
           HF: ${{ secrets.HF }}
-        run: git push --force https://sankhyikii:$HF@huggingface.co/spaces/sankhyikii/text-summarization main
+        run: git push --force space main

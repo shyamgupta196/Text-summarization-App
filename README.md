@@ -6,7 +6,7 @@ sdk_version: 3.35.2
 app_file: app.py
 pinned: false
 license: cc
-HfLink: [link](https://huggingface.co/spaces/sankhyikii/text-summarization)
+HfLink: https://huggingface.co/spaces/sankhyikii/text-summarization
 ---
 [![Sync to Hugging Face hub](https://github.com/shyamgupta196/Text-summarization-App/actions/workflows/main.yml/badge.svg)](https://github.com/shyamgupta196/Text-summarization-App/actions/workflows/main.yml)
 

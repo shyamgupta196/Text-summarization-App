@@ -13,12 +13,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - name: Add remote 
-        env:
-          HF: ${{ secrets.HF }}
-        run: git remote add space https://sankhyikii:$HF@huggingface.co/spaces/sankhyikii/text-summarization
-
       - name: Push to hub
         env:
           HF: ${{ secrets.HF }}
-        run: git push --force space main
+        run: git push --force  https://sankhyikii:$HF@huggingface.co/spaces/sankhyikii/text-summarization main
